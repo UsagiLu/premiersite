@@ -15,9 +15,18 @@ body {
     text-align: justify;
 }
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 h3 {
     margin-left: 100px;
     margin-right: 100px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .stem {
@@ -39,7 +48,8 @@ h3 {
     border: 1px solid bisque;
     text-align: center;
     position: relative;
-    margin: auto
+    margin: auto;
+    border-radius: 15px;
 }
 
 .barredetitre li {
@@ -56,17 +66,68 @@ h3 {
     background-color: saddlebrown;
     border-radius: 15px;
     margin-top: 60px;
-
 }
 
 .bleu {
-    width: 10%;
+    width: 30%;
     border-radius: 15px;
+    margin-left: 380px;
+}
+
+.inthebox {
+    width: 20%;
+    border-radius: 15px;
+    margin-left: 1px;
 }
 
 .colonne2 {
     height: auto;
-    position: right;
     background-color: saddlebrown;
     border-radius: 15px;
+}
+
+.rules {
+    position: absolute
+}
+
+.rules1 {
+    border-radius: 15px;
+    width: 30%;
+}
+
+.rules2 {
+    border-radius: 15px;
+    width: 30%;
+}
+
+.rules3 {
+    border-radius: 15px;
+    width: 31%;
+}
+
+.colonne3 {
+    height: 900px;
+    background-color: saddlebrown;
+    border-radius: 15px;
+    margin-top: 600px;
+}
+
+.vidéos {
+    width: 33%;
+    height: 33%;
+}
+
+.colonne4 {
+    height: auto;
+    background-color: black;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.colorstems {
+    width: 50%;
+    border-radius: 15px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
 }
